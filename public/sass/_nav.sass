@@ -20,4 +20,16 @@ header
         padding-top: 10px
         font-size: 1em
         &_elem
+            position: relative
             margin: 0px 25px
+        &_elemblue::before
+            position: absolute
+            content: ""
+            width: 100px
+            height: 60px
+            border-top-left-radius: 5px
+            border-top-right-radius: 5px
+            opacity: 0.3
+            left: -25px
+            top: -15px
+            background-color: $couleursecondaire
